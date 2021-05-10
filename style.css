@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.head {
+    height: 100vh;
+    background: url(/img/busines.png) center center no-repeat;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+.menu a {
+    opacity:1;
+    color: #FFFFFF;
+    font-size: 20px;
+    align: undefined;
+    text-decoration: none;
+    margin-right: 100px;
+    letter-spacing: 2.8px;
+}
+.menu a:last-child {
+    margin-right: 0px;
+}
+
+.head-text {
+    text-align: center;
+    margin-top: 320px;
+}
+
+.head-text h1{
+    opacity:1;
+    color:#FFFFFF;
+    font-size:100px;
+    align:undefined;
+}
+.head-text p{
+    opacity:1;
+    color:#FFFFFF;
+    font-size:30px;
+    align:undefined;
+}
+button {
+    cursor: pointer;
+    opacity:1;
+    color:#FFFFFF;
+    font-size:18px;
+    align:undefined;
+    margin-top: 20px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    text-transform: uppercase;
+    transition: ease-in .25s all;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    border-color: black;
+}
+.about img {
+    margin-top: 65px;
+}
+.about button:hover{
+    background-color: black;
+    color: white;
+}
+.form:hover{
+    background-color: black;
+    color: white;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about span {
+    opacity:1;
+    color:#C4C4C4;
+    font-size:22px;
+    align:undefined;
+}
+.about h2 {
+    opacity:1;
+    color:#000000;
+    font-size:30px;
+    align:undefined;
+    margin-top: 15px;
+}
+.about p {
+    opacity:1;
+    color:#5B5B5C;
+    font-size:22px;
+    align:undefined;
+    margin-top: 30px;
+    }
+.about button {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    margin-top: 40px;
+}
+.photos {
+    text-align: center;
+    margin-top: 100px;
+}
+.photos h2 {
+    opacity:1;
+    color:#000000;
+    font-size:30px;
+    align:center;
+}
+.photos p {
+    opacity:1;
+    color:#5B5B5C;
+    font-size:30px;
+    align:center;
+    margin-top: 36px;
+}
+.photos-wrap {
+    margin-top: 97px;
+}
+.photos-wrap img{
+    margin: 10px;
+}
+.company {
+    margin-top: 250px;
+    margin-bottom: 160px;
+}
+
+.company-text {
+    text-align: center;
+}
+.company-text h2{
+    opacity:1;
+    color:#000000;
+    font-size:30px;
+    align:center;
+}
+.company-text p{
+    opacity:1;
+    color:#5B5B5C;
+    font-size:30px;
+    align:center;
+    margin-top: 36px;
+}
+.company-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.company-block-1 {
+    margin-right: 34px;
+}
+.company-block h3{
+    opacity:1;
+    color:#000000;
+    font-size:30px;
+    align:undefined;
+    margin-top: 66px;
+}
+.company-block p {
+    opacity:1;
+    color:#848484;
+    font-size:30px;
+    align:undefined;
+    margin-top: 55px;
+}
+.company-block button {
+    opacity:1;
+    color:#000000;
+    font-size:16px;
+    align:undefined;
+    background-color:#DDDCDC;
+    margin-top: 80px;
+}
+.form {
+    background-color:black;
+    color: white;
+}
+.send-text button:hover{
+    background-color: white;
+    color: black;
+    background-color: none;
+}
+.send-text {
+    padding: 150px 0px;
+    opacity:1;
+    background-color:#F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-text {
+    margin-right: 110px;
+}
+.send-text h2{
+    opacity:1;
+    color:#000000;
+    font-size:30px;
+    align:undefined;
+}
+.send-text {
+    opacity:1;
+    color:#5B5B5C;
+    font-size:18px;
+    align:undefined;
+}
+input {
+    margin-right: 60px;
+    padding: 27px 33px;
+    opacity:1;
+    color:#3A4047;
+    font-size:22px;
+    align:undefined;
+    border: 2px solid #7a7a7a;
+}
+.footer {
+    text-align: center;
+    padding: 94px 0px;
+}
+.footermenu a{
+    margin-right: 55px;
+    text-decoration: none;
+    opacity:1;
+    color:#000000;
+    font-size:22px;
+    align:undefined;
+}
+.footermenu{
+    margin-bottom: 66px;
+}
+.footermenu a:last-child {
+    margin-right: 0px;
+}
+.footer p{
+    opacity:1;
+    color:#000000;
+    font-size:18px;
+    align:undefined;
+}
+.footer-text {
+    margin-bottom: 19px;
+    opacity:1;
+    color:#000000;
+    font-size:18px;
+    align:undefined;
+}
